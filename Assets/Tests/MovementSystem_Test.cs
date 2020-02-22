@@ -8,7 +8,7 @@ namespace Tests {
     public class MovementSystem_Test: ECSTestsFixture  {
         [Test]
        public void WhenDeadAndNEquals3() {
-
+           Assert.Fail();
        }
     }
 }
