@@ -4,7 +4,14 @@ stages:
   - deploy
 unit-test:
   stage: test
-  script: echo 'Testing...'
+  script: "/Applications/Unity/Hub/Editor/2013.3.0f6/Unity.app/Contents/MacOS/Unity \
+    -batchmode \
+    -projectPath . \
+    -runTests 
+    -testPlatform editmode \
+    -testCategory 2DToolbox \
+    -logFile \
+    -testResults ./unit-tests.xml"
   tags: 
     - unity
 unity-build:
