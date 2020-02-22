@@ -16,7 +16,7 @@ unit-test:
     - unity
 unity-build:
   stage: build
-  script: echo 'Building...'
+  script: echo 'Building... minor change for force update'
   tags: 
     - unity
 playstore:
