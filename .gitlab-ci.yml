@@ -4,7 +4,7 @@ stages:
   - deploy
 unit-test:
   stage: test
-  script: "/Applications/Unity/Hub/Editor/2019.3.0f6/Unity.app/Contents/MacOS/Unity \
+  script: "/Applications/Unity/Hub/Editor/2021.1.14f1/Unity.app/Contents/MacOS/Unity \
     -batchmode \
     -projectPath . \
     -runTests 
